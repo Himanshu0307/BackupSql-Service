@@ -1,0 +1,19 @@
+
+{
+    "Credential": {
+        "Username": "",
+        "Password": "",
+        "Port": 21
+    },
+    "Databases": [
+        {
+            "DatabaseName": "",
+            "CompanyName": ""
+        }
+    ],
+    "TargetServerIp": "",
+    "DatabaseServerName": "",
+    "DatabaseUserName": "",
+    "DatabasePassword": "",
+    "BaseDir":""
+}

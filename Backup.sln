@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backup", "Backup.csproj", "{87467FED-1193-4123-9C31-6FD6F4E4786D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{0F3CD3BF-27B3-4C65-A482-FE4519BD0634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87467FED-1193-4123-9C31-6FD6F4E4786D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87467FED-1193-4123-9C31-6FD6F4E4786D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87467FED-1193-4123-9C31-6FD6F4E4786D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87467FED-1193-4123-9C31-6FD6F4E4786D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3CD3BF-27B3-4C65-A482-FE4519BD0634}.Debug|Any CPU.ActiveCfg = Debug
+		{0F3CD3BF-27B3-4C65-A482-FE4519BD0634}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25BEAC44-5B06-4305-8CF8-5BF992829C7C}
+	EndGlobalSection
+EndGlobal
