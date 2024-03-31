@@ -1,19 +1,19 @@
 # BackupSql-Service
-Create a Windows Service which can automate the task of taking backup from SQL Server and transfer to target Server
+Created a Windows Service which can automate the task of taking backup from SQL Server and transfer to target Server
 
-#How to Use:
-1.Create a FTP Server on target machine(where backup is to be delivered). we can confifure using IIS Server  
-2. Add Required information in config.json  
-     Username: Provide Username for ftp Server,  
-     Password: Provide Password for ftp Server ,  
-     DatabaseName: Enter Database name,  
-     CompanyName: Enter Company Name,  
-     TargetServerIp": Target Server IP. Eg: "ftp://0.0.0.0:21" ,  
-     DatabaseServerName: Database Server Name,  
-     DatabaseUserName: Database Username,  
-     DatabasePassword: Database Password,  
-     BaseDir: Base Directory. Eg="D:/"  
-Note: Multipe Database can be provided for Backup.  
+# How to Use:
+## 1. Set Up an FTP Server on the Target Machine  
+## 2. Add Required information in config.json  
+____     - Username: Provide Username for ftp Server,  
+____     - Password: Provide Password for ftp Server ,  
+____     - DatabaseName: Enter Database name,  
+____     - CompanyName: Enter Company Name,  
+____     - TargetServerIp": Target Server IP. Eg: "ftp://0.0.0.0:21" ,  
+____     - DatabaseServerName: Database Server Name,  
+____     - DatabaseUserName: Database Username,  
+____     - DatabasePassword: Database Password,  
+____     - BaseDir: Base Directory. Eg="D:/"  
+### Note: Multipe Database can be provided for Backup.  
 Eg:  "Databases": [  
         {
             "DatabaseName": "Database1",
